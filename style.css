@@ -101,7 +101,7 @@ section {
 }
 
 .home-content h3 {
-    font-size: 3.2rem;
+    font-size: 3.9rem;
     font-weight: 700;
 }
 
@@ -136,6 +136,7 @@ span {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
+
 }
 
 .social-media a:hover {
@@ -179,12 +180,13 @@ span {
 }
 
 .about-content {
-    text-align: left;
-    line-height: 1.2;
+    text-align: center;
+    line-height: 1.4;
+    gap: 2vw;
 }
 
 .about-content h3 {
-    font-size: 2.6rem;
+    font-size: 2.9rem;
 }
 
 .about-content p {
@@ -192,9 +194,24 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.services h2 {
-    margin-bottom: 5rem;
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
 }
+ 
+.heading {
+    text-align: center;
+    margin: 0 auto; 
+    font-size: 4.5rem; 
+}
+
+
+.services h2 {
+    margin-bottom: 10rem; 
+}
+
 
 .services-container {
     display: flex;
@@ -371,6 +388,7 @@ span {
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--second-bg-color);
+    background-color: black;
 }
 
 .footer-text p {

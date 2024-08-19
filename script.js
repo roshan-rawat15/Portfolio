@@ -58,7 +58,7 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-img', { origin: 'lright' });
 
 const typed = new Typed ('.multiple-text', {
-    strings: ['Frontend Developer!', 'Programmer', 'Youtuber'],
+    strings: ['Frontend Developer', 'Data Scientists', 'Programmer Analysts'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
